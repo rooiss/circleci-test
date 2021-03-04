@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "pm2 start app.js --name \"app\""
+    "start": "pm2 start app.js --name \"app\"",
+    "restart": "pm2 restart app"
   },
   "keywords": [],
   "author": "",
